@@ -15,6 +15,7 @@ public class MoveObject01 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position;
+        // works to move cube left by specifying direction (as serialized field) & speed
+        transform.Translate(moveDirection * 3);
     }
 }
