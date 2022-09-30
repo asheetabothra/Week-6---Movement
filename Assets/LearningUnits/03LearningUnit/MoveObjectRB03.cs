@@ -6,6 +6,8 @@ public class MoveObjectRB03 : MonoBehaviour
 {
     Rigidbody rigidbody;
     Vector3 moveDirection;
+    // solved this usnit by adding the script to the blue cube and playing around with 
+    // the mass of each cube until both were knocked off the stage
     // Start is called before the first frame update
     void Start()
     {
